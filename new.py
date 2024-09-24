@@ -1,2 +1,3 @@
 # Databricks notebook source
-dbutils.notebook.entry_point.getDbutils().notebook().getContext().browserHostName().get()
+# MAGIC %sql
+# MAGIC select 1
